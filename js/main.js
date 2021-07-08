@@ -1,8 +1,21 @@
-function soma(n1, n2){
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigada por clicar</b>";
+}
+function redirecionar(){
+    window.open("https://consultoria.natura.com.br/webfv/");
+}
+function trocar(elemento){
+    elemento.innerHTML = "Obrigada por passar o mouse";
+    //alert("trocar texto");
+}
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+/*function soma(n1, n2){
     return n1 + n2;
 }
-
-function validaIdade(idade){
+*/
+/*function validaIdade(idade){
     var validar;
     if(idade >= 18){
         validar = true
@@ -13,7 +26,7 @@ function validaIdade(idade){
 }
 var idade = prompt("Qual sua idade");
 console.log(validaIdade(idade));
-
+*/
 /*function setReplace(frase, nome, novo_nome){
     return frase.replace(nome, novo_nome)
 }
