@@ -1,8 +1,31 @@
-var d = new Date();
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+/*function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+*/
+//alert(soma(5, 10));
+//alert(setReplace("vai Japão", "Japão", "Brasil"));
+
+/*var d = new Date();
 alert(d.getMinutes() + 1);
 alert(d.getTime);
 alert(d.getUTCHours);
-
+*/
 
 /*var count;
 for(count = 0; count <= 5; count++){
